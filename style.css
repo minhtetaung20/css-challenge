@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sen:wght@400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #013243;
+  font-family: 'Sen', sans-serif;
+  color: #32f5c8;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+nav {
+  padding: 28px 0;
+  position: sticky;
+}
+section h2 {
+  font-size: 128px;
+  line-height: 1;
+}
+section p {
+  margin-top: 16px;
+  color: #afc2cb;
+  font-size: 20px;
+}
+section button {
+  color: #003041;
+  background-color: #32f5c8;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 18px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+}
+section button:hover {
+  cursor: pointer;
+  background-color: #29c19e;
+}
+footer {
+  position: fixed;
+  padding: 24px 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+footer img {
+  width: 38px;
+  margin-right: 16px;
+}
+footer p {
+  color: #afc2cb;
+  font-size: 20px;
+}
